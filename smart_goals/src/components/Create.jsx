@@ -42,7 +42,7 @@ function Create() {
               name='TargetAmount' 
               className='form-control' 
               placeholder='Enter Amount'
-              onChange={e => setValues({...values, TargetAmount: e.target.value})} 
+              onChange={e => setValues({...values, targetAmount: e.target.value})} 
             />
           </div> 
           <div className='form-group'>
