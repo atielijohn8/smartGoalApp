@@ -22,7 +22,7 @@ function Update() {
 
   const handleUpdate = (event) => {
     event.preventDefault();
-    axios.put('http://localhost:3000/goals', values)
+    axios.put('http://localhost:3000/goals/'+id, values)
       .then(res => {
         navigate('/'); // navigate back after submission
       })

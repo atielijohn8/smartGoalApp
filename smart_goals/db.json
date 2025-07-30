@@ -82,11 +82,18 @@
       "createdAt": "2024-05-15"
     },
     {
-      "id": "6b71",
-      "name": "tower",
+      "id": "1504",
+      "name": "phone",
       "targetAmount": 0,
-      "savedAmount": "4000",
-      "TargetAmount": "70000"
+      "savedAmount": "20000",
+      "TargetAmount": "90000"
+    },
+    {
+      "id": "84aa",
+      "name": "chess",
+      "targetAmount": 0,
+      "savedAmount": "5000",
+      "TargetAmount": "10000"
     }
   ]
 }

@@ -39,7 +39,7 @@ function Create() {
             <label htmlFor='Target'>Target Amount</label>
             <input 
               type='number' 
-              name='targetAmount' 
+              name='TargetAmount' 
               className='form-control' 
               placeholder='Enter Amount'
               onChange={e => setValues({...values, TargetAmount: e.target.value})} 
