@@ -1,12 +1,33 @@
-# React + Vite
+ # Goals Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ This is a simple React based web application for managing personal goals. Users can add, update, delete, and Read goals The app fetches data from a local server (db.json).
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ # FEATURES
+ 
+ *Add new goals
+ *Update existing goals
+ *Delete goals
+ *Fetch and sync with localserver
 
-## Expanding the ESLint configuration
+ # Techologies Used
+ *React
+ *Javascript
+ *Reactrouter DOM
+ *Axios
+ *Jsonserver
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ # SETUP 
+*git clone git@github.com:atielijohn8/smartGoalApp.git
+   # INSTALL DEPENDENCIES
+*npm install react-router-dom axios bootstrap json-server
+
+  # START JSON SERVER
+  *npx json-server --watch db.json --port 3000
+
+  # START REACT APP
+  *npm run dev
+
+  # AUTHOR 
+  John Kennedy
+
