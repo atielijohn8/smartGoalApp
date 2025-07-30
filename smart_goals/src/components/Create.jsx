@@ -13,8 +13,8 @@ function Create() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    axios.put('http://localhost:3000/goals', values)
-      .then(res => {
+    axios.post('http://localhost:3000/goals', values)
+    .then(res => {
         navigate('/'); // navigate back after submission
       })
       .catch(err => console.log(err));

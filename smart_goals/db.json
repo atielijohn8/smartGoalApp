@@ -80,6 +80,13 @@
       "category": "Home",
       "deadline": "2025-03-31",
       "createdAt": "2024-05-15"
+    },
+    {
+      "id": "6b71",
+      "name": "tower",
+      "targetAmount": 0,
+      "savedAmount": "4000",
+      "TargetAmount": "70000"
     }
   ]
 }
