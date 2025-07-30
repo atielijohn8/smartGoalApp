@@ -25,7 +25,7 @@ function Home() {
             <h1>List of Goals</h1>
             <div className="w-75 rounded bg-white border shadow p-3">
                 <div className="d-flex justify-content-end">
-                    <Link to='/create' className="btn-btn-success">Add +</Link>
+                    <Link to='/create' className="btn btn-success">Add +</Link>
                 </div>
                 <table className="table">
                     <thead>
@@ -47,7 +47,7 @@ function Home() {
                                 <td>
                                     <div className="d-flex gap-2">
                                         <Link to={`/read/${d.id}`} className="btn btn-primary btn-sm">Read</Link>
-                                        <Link to={`update/$d.id`} className="btn btn-primary btn-sm">Edit</Link>
+                                        <Link to={`update/${d.id}`} className="btn btn-primary btn-sm">Edit</Link>
                                         <button onClick={e => handleDelete(d.id)} className="btn btn-danger btn-sm">Delete</button>
                                     </div>
                                 </td>

@@ -80,31 +80,6 @@
       "category": "Home",
       "deadline": "2025-03-31",
       "createdAt": "2024-05-15"
-    },
-    {
-      "id": "5ca7",
-      "name": "John",
-      "TargetAmount": "300",
-      "savedAmount": "400"
-    },
-    {
-      "id": "68fc",
-      "name": "pc",
-      "TargetAmount": "2000",
-      "savedAmount": "1000"
-    },
-    {
-      "id": "7209",
-      "name": "pc/j",
-      "TargetAmount": "5000",
-      "savedAmount": "5000"
-    },
-    {
-      "id": "5a2a",
-      "name": "graphic",
-      "targetAmount": 0,
-      "savedAmount": "5000",
-      "TargetAmount": "90000"
     }
   ]
 }
